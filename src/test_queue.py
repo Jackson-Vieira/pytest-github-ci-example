@@ -1,7 +1,8 @@
 # workflow
 
 import pytest
-from queue import Queue
+
+from .simple_queue import Queue
 
 """
 methods
