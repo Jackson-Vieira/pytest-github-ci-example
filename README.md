@@ -1,8 +1,10 @@
 # Pytest + Github Actions
 [![Coverage Status](coverage.svg)](https://github.com/Jackson-Vieira/pytest-github-ci-example)
 
-This repo is based in the following article.
-[Automated Python Unit Testing Made Easy with Pytest and GitHub Actions](https://pytest-with-eric.com/integrations/pytest-github-actions/)
+This repo is based in the following articles.
+
+- [Automated Python Unit Testing Made Easy with Pytest and GitHub Actions](https://pytest-with-eric.com/integrations/pytest-github-actions/)
+- [Automating Build and Tests for Python](https://docs.github.com/pt/actions/automating-builds-and-tests/building-and-testing-python)
 
 ## Run
 
