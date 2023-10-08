@@ -19,5 +19,5 @@ def validate_age(age):
 # test pytest raises custom exception
 # @pytest.mark.parametrize()
 def test_raises_custom_exception():
-    with pytest.raises(InvalidAgeException) as excp:
+    with pytest.raises(InvalidAgeException):
         validate_age(15)
