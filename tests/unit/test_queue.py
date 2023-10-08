@@ -48,3 +48,6 @@ def test_dequeue_empty_queue(my_queue):
         my_queue.dequeue()
     assert str(excp.value) == "Queue is empty"
     assert my_queue.is_empty()
+
+def test_peek_empty_queue(my_queue):
+    assert my_queue.peek() == -1
